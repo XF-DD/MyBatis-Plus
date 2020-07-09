@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="mybaitisPlus" uuid="ddf034cd-2734-4364-a20b-4039a2f971da">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://120.79.18.7:32553/test_xf?characterEncoding=utf-8&amp;useSSL=false</jdbc-url>
+    </data-source>
+  </component>
+</project>

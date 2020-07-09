@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    username: sms
+    password: Yeion#187.top
+    url: jdbc:mysql://120.79.18.7:32553/test_xf?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.jdbc.Driver
+
+# 配置日志(此处是默认)
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+  global-config:
+    db-config:
+#      logic-delete-field: deleted # 全局逻辑删除的尸体字段名
+      logic-delete-value: 1
+      logic-not-delete-value: 0
